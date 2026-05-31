@@ -31,10 +31,14 @@
 (단어 수준 임베딩 기법)
 - Word2Vec(CBOW, Skip-gram): 단어의 의미를 주변 단어들과의 관계로 학습하는 방법
 - Glove: 전체 말뭉치의 단어 동시 출현 통계를 미리 계산하고 이를 기반으로 임베딩을 학습
-- ELMo(Embedding from Language Models): 양방향 언어 모델ㅇ르 사용하여 문맥을 고려한 단어 표현을 생성. 문장 전체를 읽고 각 단어의 의미를 결정
+- ELMo(Embedding from Language Models): 양방향 언어 모델을 사용하여 문맥을 고려한 단어 표현을 생성. 문장 전체를 읽고 각 단어의 의미를 결정
 
 (자연어처리 4단계)
 1) Morphological Analysis(형태소 분석)
 2) Syntax Analysis(구문 분석)
 3) Semantic Analysis(의미 분석)
 4) Pragmatic Analysis(화용 분석)
+
+(프론프트 입력 기호)
+- 마크다운: 제목 구분, 강조(굵게/기울임), 하이퍼링크(인라인/참조), 인용문(단일/중첩)
+- XML 태그, 백틱, 삼중 백틱, 중괄호 등
