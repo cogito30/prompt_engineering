@@ -21,3 +21,21 @@
 5) 대화하기: 질문과 응답을 반복하며 점진적으로 결과를 개선. 내가 쓸 계획서를 네가 대신 작성해줘.
 
 #### 2.자언어 이해와 입력 기호
+
+(NLP 개념)
+- N-gram Model: 연속된 n개의 단어 또는 문자를 하나의 단위로 추출하여 분석하는 통계적 기법
+- BPE(Byte Pair Encoding): 데이터에서 가장 빈번하게 등장하는 문자 쌍을 반복적으로 병합하여 서브워드 어휘를 구성하는 압축 기법
+- Topic Modeling: 대량의 문서 집합에서 숨겨진 주제를 자동으로 발견하는 확률 기반 텍스트 분석 기법
+- LSA(Latent Semantic Analysis): 선형대수의 특이값 분해(SVD)를 활용하여 문서와 단어의 숨겨진 의미 관계를 발견하는 기법
+
+(단어 수준 임베딩 기법)
+- Word2Vec(CBOW, Skip-gram): 단어의 의미를 주변 단어들과의 관계로 학습하는 방법
+- Glove: 전체 말뭉치의 단어 동시 출현 통계를 미리 계산하고 이를 기반으로 임베딩을 학습
+- ELMo(Embedding from Language Models): 양방향 언어 모델ㅇ르 사용하여 문맥을 고려한 단어 표현을 생성. 문장 전체를 읽고 각 단어의 의미를 결정
+
+(자연어처리 4단계)
+1) Morphological Analysis(형태소 분석): 
+2) Syntax Analysis(구문 분석): 
+3) Semantic Analysis(의미 분석): 
+4) Pragmatic Analysis(화용 분석):
+
