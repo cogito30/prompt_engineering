@@ -1,11 +1,12 @@
-# Study
+# Prompt Engineering
 
-## AI
+## Index
 
 | No | Subject | Link |  
 | :--: | :--: | :--: |  
-| 01 | AI Prompt | [Link](./01_ai_prompt.md) | 
-| 02 |  | [Link]() |
-| 03 |  | [Link]() |
-| 04 |  | [Link]() |
-| 05 |  | [Link]() |
+| 01 | prompt basic | [Link](./01_prompt_basic) | 
+| 02 | prompt engineering | [Link]() |
+| 03 | Gemini | [Link]() |
+| 04 | Claude | [Link]() |
+| 05 | Chat-GPT | [Link]() |
+| 06 |  | [Link]() |
